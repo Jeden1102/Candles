@@ -33,6 +33,7 @@ const formatLink = (link: string) => {
 }
 const setActiveMenuItem = (link: string) => {
   activeMenuItem.value = link;
+  isMobileMenuVisible.value = false;
 }
 </script>
 <style lang="scss" scoped>

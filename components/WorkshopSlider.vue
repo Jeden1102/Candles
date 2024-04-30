@@ -31,3 +31,13 @@ const breakpoints = {
     },
 }
 </script>
+
+<style lang="scss">
+.carousel__slide {
+ padding: 0 25px;
+
+ @media(min-width: 768px) {
+    padding: 0 10px;
+ }
+}
+</style>
